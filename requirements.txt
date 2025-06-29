@@ -1,0 +1,80 @@
+# API Framework
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# Core RAG & LangChain
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-ollama
+
+# LLM & Embeddings
+ollama
+sentence-transformers
+torch
+transformers
+huggingface-hub
+
+# Vector Store - ChromaDB (meilleur que FAISS pour évolutivité)
+chromadb
+faiss-cpu
+
+# Document Processing
+pymupdf
+pypdf
+openpyxl
+pandas
+beautifulsoup4
+requests
+
+# Search & Matching
+rank_bm25
+fuzzywuzzy
+python-Levenshtein
+
+# Configuration & Validation
+pydantic[email]
+pydantic-settings
+
+# Database
+psycopg2-binary  # PostgreSQL
+sqlalchemy
+alembic
+
+# Cache
+redis
+hiredis
+
+# Task Queue
+celery
+
+# Logging & Monitoring
+python-json-logger
+structlog
+prometheus-client
+chardet  # Détection d'encodage
+langdetect  # Détection de langue
+
+# Development & Testing
+pytest
+pytest-asyncio
+pytest-cov
+httpx # Pour tester FastAPI
+
+# Code Quality
+black
+flake8
+isort
+pre-commit
+
+# Fine-tuning (pour plus tard)
+datasets
+accelerate
+peft  # LoRA
+bitsandbytes # Quantization
+
+# Production
+gunicorn
+python-multipart
